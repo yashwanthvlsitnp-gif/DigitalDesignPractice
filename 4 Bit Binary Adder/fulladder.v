@@ -25,7 +25,7 @@ module fulladder(
     input y,
     input carry_in,
     output s_fadd,
-    input carry_out
+    output carry_out
     );
     
     assign s_fadd = x ^ y ^ carry_in;
