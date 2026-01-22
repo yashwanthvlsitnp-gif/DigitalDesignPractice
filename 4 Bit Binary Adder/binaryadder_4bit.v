@@ -25,7 +25,7 @@ module binaryadder_4bit(
     input [3:0] b,
     input c_in,
     output [3:0] s,
-    input c_out
+    output c_out
     );
     
     wire c1,c2,c3;
