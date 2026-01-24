@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Time | A   B   | Diff  Borrow
+   0ns | 0   0  | 0     0
+  15ns | 1   6  | 5     1
+  25ns | 0   2  | 8     1
+  35ns | 9   5  | 4     0
+  45ns | 9   2  | 7     0
+  55ns | 2   1  | 1     0
+  65ns | 6   3  | 3     0
+  75ns | 7   7  | 0     0
+  85ns | 7   1  | 6     0
+  95ns | 9   5  | 4     0
+ 105ns | 6   8  | 8     1
+$finish called at time : 115 ns : File "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_subtractor/bcd_subtractor.srcs/sources_1/new/tb_bcd_subtractor.v" Line 38

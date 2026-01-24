@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_adder/bcd_adder.srcs/sources_1/new/bcd_adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_subtractor/bcd_subtractor.srcs/sources_1/new/bcd_subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_adder/bcd_adder.srcs/sources_1/new/binary_adder_4bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module binary_adder_4bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_adder/bcd_adder.srcs/sources_1/new/fulladder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_subtractor/bcd_subtractor.srcs/sources_1/new/tb_bcd_subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bcd_subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_subtractor/bcd_subtractor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

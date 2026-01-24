@@ -1,0 +1,22 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_bcd_subtractor_behav xil_defaultlib.tb_bcd_subtractor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_subtractor/bcd_subtractor.srcs/sources_1/new/bcd_subtractor.v" Line 21. Module bcd_subtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_adder/bcd_adder.srcs/sources_1/new/bcd_adder.v" Line 1. Module bcd_adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_subtractor/bcd_subtractor.srcs/sources_1/new/bcd_subtractor.v" Line 21. Module bcd_subtractor doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/HDL_2026/Week_1/Day_2/Practice/BCD_Adder/bcd_adder/bcd_adder.srcs/sources_1/new/bcd_adder.v" Line 1. Module bcd_adder doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.binary_adder_4bit
+Compiling module xil_defaultlib.bcd_adder
+Compiling module xil_defaultlib.bcd_subtractor
+Compiling module xil_defaultlib.tb_bcd_subtractor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_bcd_subtractor_behav

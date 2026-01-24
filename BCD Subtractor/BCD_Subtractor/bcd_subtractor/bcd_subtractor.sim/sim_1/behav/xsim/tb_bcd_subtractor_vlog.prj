@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../bcd_adder/bcd_adder.srcs/sources_1/new/bcd_adder.v" \
+"../../../../bcd_subtractor.srcs/sources_1/new/bcd_subtractor.v" \
+"../../../../../bcd_adder/bcd_adder.srcs/sources_1/new/binary_adder_4bit.v" \
+"../../../../../bcd_adder/bcd_adder.srcs/sources_1/new/fulladder.v" \
+"../../../../bcd_subtractor.srcs/sources_1/new/tb_bcd_subtractor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
