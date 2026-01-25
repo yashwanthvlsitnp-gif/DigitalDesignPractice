@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_2X2/binary_array_multiplier_2x2/binary_array_multiplier_2x2.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_2X2/binary_array_multiplier_2x2/binary_array_multiplier_2x2.srcs/sources_1/new/binary_array_multiplier_2x2.v,1769176999,verilog,,E:/HDL_2026/Week_1/Day_2/Practice/HalfAdder/Synthesis/halfadder.v,,binary_array_multiplier_2x2,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_2X2/binary_array_multiplier_2x2/binary_array_multiplier_2x2.srcs/sources_1/new/tb_binary_array_multiplier_2x2.v,1769177541,verilog,,,,tb_binary_array_multiplier_2x2,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/HalfAdder/Synthesis/halfadder.v,1768411034,verilog,,E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_2X2/binary_array_multiplier_2x2/binary_array_multiplier_2x2.srcs/sources_1/new/tb_binary_array_multiplier_2x2.v,,halfadder,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
