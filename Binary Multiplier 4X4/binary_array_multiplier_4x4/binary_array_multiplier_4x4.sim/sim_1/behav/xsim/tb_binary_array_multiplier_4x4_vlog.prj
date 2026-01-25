@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "C:/Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../binary_array_multiplier_4x4.srcs/sources_1/new/binary_array_multiplier_4x4.v" \
+"../../../../../../BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v" \
+"../../../../../../BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/fulladder.v" \
+"../../../../binary_array_multiplier_4x4.srcs/sources_1/new/partialproduct_gen.v" \
+"../../../../binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

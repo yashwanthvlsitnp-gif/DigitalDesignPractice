@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,,,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/binary_array_multiplier_4x4.v,1769186673,verilog,,E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v,,binary_array_multiplier_4x4,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/partialproduct_gen.v,1769185747,verilog,,E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v,,partialproduct_gen,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v,1769186956,verilog,,,,tb_binary_array_multiplier_4x4,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v,1768658688,verilog,,E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/fulladder.v,,binaryadder_4bit,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/fulladder.v,1768658688,verilog,,E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/partialproduct_gen.v,,fulladder,,,C:/Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,

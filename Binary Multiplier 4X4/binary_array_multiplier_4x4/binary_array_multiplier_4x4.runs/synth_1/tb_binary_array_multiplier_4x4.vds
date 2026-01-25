@@ -1,0 +1,406 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Fri Jan 23 22:19:40 2026
+# Process ID         : 82512
+# Current directory  : E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.runs/synth_1
+# Command line       : vivado.exe -log tb_binary_array_multiplier_4x4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_binary_array_multiplier_4x4.tcl
+# Log file           : E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.runs/synth_1/tb_binary_array_multiplier_4x4.vds
+# Journal file       : E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.runs/synth_1\vivado.jou
+# Running On         : Kotha
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-1255U
+# CPU Frequency      : 2611 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 16849 MB
+# Swap memory        : 10200 MB
+# Total Virtual      : 27049 MB
+# Available Virtual  : 11749 MB
+#-----------------------------------------------------------
+source tb_binary_array_multiplier_4x4.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 492.090 ; gain = 211.074
+Command: synth_design -top tb_binary_array_multiplier_4x4 -part xc7a200tisbg484-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 68660
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 995.938 ; gain = 498.914
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'tb_binary_array_multiplier_4x4' [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:3]
+INFO: [Synth 8-251] Starting exhaustive test for 4x4 multiplier... [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:20]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+WARNING: [Synth 8-589] replacing case/wildcard equality operator !== with logical equality operator != [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+INFO: [Common 17-14] Message 'Synth 8-589' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-6896] if statement with non-constant condition is inside initial block, initial block items will be ignored [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:35]
+INFO: [Common 17-14] Message 'Synth 8-6896' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-251] All 256 test cases PASSED ✔️ [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:46]
+WARNING: [Synth 8-11581] system task call 'finish' not supported [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:47]
+INFO: [Synth 8-6157] synthesizing module 'binary_array_multiplier_4x4' [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/binary_array_multiplier_4x4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'partialproduct_gen' [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/partialproduct_gen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'partialproduct_gen' (0#1) [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/partialproduct_gen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'binaryadder_4bit' [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fulladder' [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/fulladder.v:23]
+WARNING: [Synth 8-6104] Input port 'carry_out' has an internal driver [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/fulladder.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder' (0#1) [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/fulladder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'binaryadder_4bit' (0#1) [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'binary_array_multiplier_4x4' (0#1) [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/binary_array_multiplier_4x4.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'tb_binary_array_multiplier_4x4' (0#1) [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/tb_binary_array_multiplier_4x4.v:3]
+WARNING: [Synth 8-3848] Net c1 in module/entity binaryadder_4bit does not have driver. [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v:31]
+WARNING: [Synth 8-3848] Net c2 in module/entity binaryadder_4bit does not have driver. [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v:31]
+WARNING: [Synth 8-3848] Net c3 in module/entity binaryadder_4bit does not have driver. [E:/HDL_2026/Week_1/Day_2/Practice/BinaryAdder_4Bit/binaryadder_4bit/binaryadder_4bit.srcs/sources_1/new/binaryadder_4bit.v:31]
+WARNING: [Synth 8-3848] Net c3 in module/entity binary_array_multiplier_4x4 does not have driver. [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/binary_array_multiplier_4x4.v:29]
+WARNING: [Synth 8-3848] Net c1 in module/entity binary_array_multiplier_4x4 does not have driver. [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/binary_array_multiplier_4x4.v:29]
+WARNING: [Synth 8-3848] Net c2 in module/entity binary_array_multiplier_4x4 does not have driver. [E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.srcs/sources_1/new/binary_array_multiplier_4x4.v:29]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1102.023 ; gain = 605.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1102.023 ; gain = 605.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tisbg484-1L
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tisbg484-1L
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1102.023 ; gain = 605.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1102.023 ; gain = 605.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 12    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1298.250 ; gain = 801.227
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1323.102 ; gain = 826.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1323.102 ; gain = 826.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 521 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 1548.781 ; gain = 1051.758
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1549.758 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1675.121 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: dc432ac
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 209 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 1675.121 ; gain = 1183.031
+INFO: [Common 17-1381] The checkpoint 'E:/HDL_2026/Week_1/Day_2/Practice/Binary Array Multiplier_4X4/binary_array_multiplier_4x4/binary_array_multiplier_4x4.runs/synth_1/tb_binary_array_multiplier_4x4.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file tb_binary_array_multiplier_4x4_utilization_synth.rpt -pb tb_binary_array_multiplier_4x4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 23 22:20:13 2026...
