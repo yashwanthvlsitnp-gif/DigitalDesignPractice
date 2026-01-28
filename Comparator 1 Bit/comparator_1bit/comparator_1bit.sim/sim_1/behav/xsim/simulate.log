@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Starting 1-bit Comparator Test...
+ A B | G E L 
+-----------
+ 0 0 | 0 1 0  ✔
+ 0 1 | 0 0 1  ✔
+ 1 0 | 1 0 0  ✔
+ 1 1 | 0 1 0  ✔
+All test cases PASSED ✔️
+$finish called at time : 20 ns : File "E:/HDL_2026/Week_1/Day_3/Practice/Comparator_1Bit/comparator_1bit/comparator_1bit.srcs/sources_1/new/tb_comparator_1bit.v" Line 59
