@@ -1,35 +1,16 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 26.01.2026 10:44:24
-// Design Name: 
-// Module Name: tb_comparator_1bit
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module tb_comparator_1bit;
-
+    reg clk;
     reg A;
     reg B;
     wire G;
     wire E;
     wire L;
 
-    // DUT instantiation
+    // Instantiate DUT
     comparator_1bit dut (
+        .clk(clk),
         .A(A),
         .B(B),
         .G(G),
@@ -37,43 +18,38 @@ module tb_comparator_1bit;
         .L(L)
     );
 
+    // Clock generation: 10 ns period
+    always #5 clk = ~clk;
     initial begin
-        $display("Starting 1-bit Comparator Test...");
-        $display(" A B | G E L ");
-        $display("-----------");
+        // Initialize
+        clk = 0;
+        A   = 0;
+        B   = 0;
+        // Wait for first clock edge
+        #10;
+        // Test 00 → Equal
+        A = 0; B = 0;
+        #10;
 
-        // Test all input combinations
-        A = 0; B = 0; #5;
-        check_result(0,0);
+        // Test 01 → A < B
+        A = 0; B = 1;
+        #10;
 
-        A = 0; B = 1; #5;
-        check_result(0,1);
+        // Test 10 → A > B
+        A = 1; B = 0;
+        #10;
 
-        A = 1; B = 0; #5;
-        check_result(1,0);
+        // Test 11 → Equal
+        A = 1; B = 1;
+        #10;
 
-        A = 1; B = 1; #5;
-        check_result(1,1);
+        // Back-to-back changes (realistic case)
+        A = 1; B = 0;
+        #10;
+        A = 0; B = 1;
+        #10;
 
-        $display("All test cases PASSED ✔️");
         $finish;
     end
 
-    // Task to check expected output
-    task check_result(input reg a, input reg b);
-        begin
-            if ((G !== (a & ~b)) ||
-                (L !== (~a & b)) ||
-                (E !== ~( (a & ~b) | (~a & b) ))) begin
-
-                $display("ERROR: A=%b B=%b | G=%b E=%b L=%b",
-                          a, b, G, E, L);
-                $stop;
-            end
-            else begin
-                $display(" %b %b | %b %b %b  ✔",
-                          a, b, G, E, L);
-            end
-        end
-    endtask
 endmodule

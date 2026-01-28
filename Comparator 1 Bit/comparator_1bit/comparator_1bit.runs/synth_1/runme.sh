@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log tb_comparator_1bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_comparator_1bit.tcl
+EAStep vivado -log comparator_1bit.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source comparator_1bit.tcl
